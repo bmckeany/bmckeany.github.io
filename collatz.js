@@ -1,7 +1,7 @@
 function collatz(startNum)
 {
     let currNum = startNum;
-    let count = 1;
+    let count = 0;
     while(currNum > 1)
     {
         if(currNum % 2 == 0)
